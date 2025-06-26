@@ -1,0 +1,35 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.json",
+    "start": "env-cmd -f ./env/.env nodemon ./bin/www",
+    "dev": "env-cmd -f ./env/.env.dev nodemon ./bin/www",
+    "prod": "env-cmd -f ./env/.env.prod nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chai": "^5.2.0",
+    "cookie-parser": "^1.4.7",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "expresse": "^1.0.2",
+    "jsdoc": "^4.0.4",
+    "jsdoc-rest-api": "^3.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "sinon": "^21.0.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+
+  "source": {
+
+    "include": ["routes", "controllers", "app.js"],
+
+    "includePattern": ".js$"
+
+  },
+
+  "opts": {
+
+    "destination": "./docs"
+
+  }
+
+}
